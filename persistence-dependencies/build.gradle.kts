@@ -36,10 +36,6 @@ repositories {
     maven(url = "https://jitpack.io")
 }
 
-dependencies {
-    api(project(":persistence-base"))
-}
-
 tasks.withType<KotlinCompile> {
     kotlinOptions {
         freeCompilerArgs = listOf("-Xjsr305=strict")
