@@ -38,10 +38,11 @@ repositories {
 }
 
 dependencies {
-    api(project(":persistence-common"))
-    api(project(":persistence-dependencies"))
+//    api(project(":persistence-common"))
+    api(project(":persistence-base"))
 
     annotationProcessor ("org.springframework.boot:spring-boot-configuration-processor")
+
     testApi("org.junit.jupiter:junit-jupiter-api:5.7.0")
     testApi("org.springframework.boot:spring-boot-starter-test") {
         exclude(module = "junit")
@@ -53,7 +54,6 @@ dependencies {
     testRuntimeOnly("com.h2database:h2")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
 }
-
 
 
 tasks.withType<KotlinCompile> {

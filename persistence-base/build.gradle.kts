@@ -38,7 +38,6 @@ repositories {
 dependencies {
     val arrowVersion = "0.11.0"
     api(project(":persistence-common"))
-    api(project(":persistence-dependencies"))
 
     api("org.jetbrains.kotlin:kotlin-reflect")
     api("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
