@@ -1,8 +1,8 @@
 package com.github.dean535.files.parser
 
 
-import com.github.b1412.files.convert.CellConverter
-import com.github.b1412.files.validate.CellValidate
+import com.github.dean535.files.convert.CellConverter
+import com.github.dean535.files.validate.CellValidate
 
 data class CellParser(
 

@@ -1,8 +1,8 @@
 package com.github.dean535.files
 
-import com.github.b1412.files.filter.RowFilter
-import com.github.b1412.files.parser.CellParser
-import com.github.b1412.files.parser.FileParser
+import com.github.dean535.files.filter.RowFilter
+import com.github.dean535.files.parser.CellParser
+import com.github.dean535.files.parser.FileParser
 import com.google.common.collect.Lists
 import org.apache.commons.lang3.StringUtils
 import org.apache.poi.ss.usermodel.Cell

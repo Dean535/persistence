@@ -1,6 +1,6 @@
 package com.github.dean535.files.parser
 
-import com.github.b1412.files.convert.CellConverter
+import com.github.dean535.files.convert.CellConverter
 data class FileParser(
 
         var name: String? = null,

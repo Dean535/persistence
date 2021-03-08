@@ -57,7 +57,7 @@ class JsonReturnHandler : HandlerMethodReturnValueHandler, BeanPostProcessor {
         objectMapper.configure(SerializationFeature.FAIL_ON_EMPTY_BEANS, false)
         objectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false)
 
-        val classes = findClasses(BaseEntity::class.java, "classpath*:com/github/b1412/**/*.class") +
+        val classes = findClasses(BaseEntity::class.java, "classpath*:com/github/dean535/**/*.class") +
                 findClasses(BaseEntity::class.java, "classpath*:nz/co/**/*.class")
 
         if (endpoint == "tree") {

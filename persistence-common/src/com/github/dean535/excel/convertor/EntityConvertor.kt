@@ -1,6 +1,6 @@
 package com.github.dean535.excel.convertor
 
-import com.github.b1412.files.convert.CellConverter
+import com.github.dean535.files.convert.CellConverter
 import javax.persistence.EntityManager
 
 class EntityConvertor : CellConverter {
