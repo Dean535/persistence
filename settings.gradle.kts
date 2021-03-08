@@ -14,6 +14,7 @@ pluginManagement {
 include(
         "persistence-api",
         "persistence-base",
-        "persistence-common"
+        "persistence-common",
+        "persistence-dependencies"
 )
 

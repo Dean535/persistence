@@ -1,4 +1,5 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+import org.springframework.boot.gradle.tasks.bundling.BootJar
 
 plugins {
     val kotlinVersion = "1.4.20"
@@ -13,23 +14,21 @@ plugins {
     `maven-publish`
 }
 
-allOpen {
-    annotation("javax.persistence.Entity")
-    annotation("javax.persistence.MappedSuperclass")
-}
-noArg {
-    annotation("javax.persistence.Entity")
-    annotation("javax.persistence.MappedSuperclass")
-}
-
-
 val jar: Jar by tasks
-val bootJar: org.springframework.boot.gradle.tasks.bundling.BootJar by tasks
+val bootJar: BootJar by tasks
 
 bootJar.enabled = false
 jar.enabled = true
 
+allOpen {
+    annotation("javax.persistence.Entity")
+    annotation("javax.persistence.Embeddable")
+    annotation("javax.persistence.MappedSuperclass")
+}
+
+
 java.sourceCompatibility = JavaVersion.VERSION_11
+
 
 repositories {
     mavenCentral()
@@ -38,27 +37,12 @@ repositories {
 }
 
 dependencies {
-    api(project(":persistence-common"))
-    api(project(":persistence-dependencies"))
-
-    annotationProcessor ("org.springframework.boot:spring-boot-configuration-processor")
-    testApi("org.junit.jupiter:junit-jupiter-api:5.7.0")
-    testApi("org.springframework.boot:spring-boot-starter-test") {
-        exclude(module = "junit")
-        exclude(module = "mockito-core")
-    }
-    testApi("com.ninja-squad:springmockk:1.1.2")
-    testApi("org.assertj:assertj-core:3.18.1")
-
-    testRuntimeOnly("com.h2database:h2")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+    api(project(":persistence-base"))
 }
-
-
 
 tasks.withType<KotlinCompile> {
     kotlinOptions {
-        freeCompilerArgs = listOf("-Xjsr305=strict", "-Xallow-result-return-type")
+        freeCompilerArgs = listOf("-Xjsr305=strict")
         jvmTarget = "11"
     }
 }
@@ -66,7 +50,6 @@ tasks.withType<KotlinCompile> {
 tasks.withType<Test> {
     useJUnitPlatform()
 }
-
 publishing {
     repositories {
         maven {
@@ -88,3 +71,4 @@ publishing {
         }
     }
 }
+
