@@ -1,10 +1,10 @@
-package com.github.b1412.api.controller
+package com.github.dean535.api.controller
 
 import arrow.core.toOption
-import com.github.b1412.api.entity.BaseEntity
-import com.github.b1412.api.service.BaseService
-import com.github.b1412.extenstions.copyFrom
-import com.github.b1412.extenstions.responseEntityOk
+import com.github.dean535.api.entity.BaseEntity
+import com.github.dean535.api.service.BaseService
+import com.github.dean535.extenstions.copyFrom
+import com.github.dean535.extenstions.responseEntityOk
 import com.github.dean535.persistence.entity.User
 import com.google.common.base.CaseFormat
 import org.springframework.beans.factory.annotation.Autowired

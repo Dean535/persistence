@@ -1,13 +1,13 @@
 package com.github.dean535.persistence.service
 
 import arrow.core.*
-import com.github.b1412.api.service.BaseService
+import com.github.dean535.api.service.BaseService
 import com.github.dean535.persistence.dao.UserDao
 import com.github.dean535.persistence.entity.Role
 import com.github.dean535.persistence.entity.RolePermission
 import com.github.dean535.persistence.entity.User
-import com.github.b1412.security.PermissionProperties
-import com.github.b1412.security.TokenBasedAuthentication
+import com.github.dean535.security.PermissionProperties
+import com.github.dean535.security.TokenBasedAuthentication
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.context.properties.EnableConfigurationProperties

@@ -1,4 +1,4 @@
-package com.github.b1412.jpa
+package com.github.dean535.jpa
 
 import arrow.core.Either
 import arrow.core.getOrElse

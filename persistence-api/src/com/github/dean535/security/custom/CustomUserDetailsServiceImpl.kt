@@ -1,7 +1,7 @@
-package com.github.b1412.security.custom
+package com.github.dean535.security.custom
 
 
-import com.github.b1412.cache.CacheClient
+import com.github.dean535.cache.CacheClient
 import com.github.dean535.persistence.service.UserService
 import org.apache.commons.lang3.StringUtils
 import org.slf4j.LoggerFactory

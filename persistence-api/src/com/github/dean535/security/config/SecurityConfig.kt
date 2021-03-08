@@ -1,15 +1,15 @@
-package com.github.b1412.security.config
+package com.github.dean535.security.config
 
-import com.github.b1412.security.LogoutSuccess
-import com.github.b1412.security.MyAccessDecisionManager
-import com.github.b1412.security.MyFilterSecurityInterceptor
-import com.github.b1412.security.TokenAuthenticationFilter
-import com.github.b1412.security.custom.CustomAuthenticationFilter
-import com.github.b1412.security.custom.CustomUserDetailsAuthenticationProvider
-import com.github.b1412.security.custom.CustomUserDetailsService
-import com.github.b1412.security.handlers.AuthenticationFailureHandler
-import com.github.b1412.security.handlers.AuthenticationSuccessHandler
-import com.github.b1412.security.handlers.MyAccessDeniedHandler
+import com.github.dean535.security.LogoutSuccess
+import com.github.dean535.security.MyAccessDecisionManager
+import com.github.dean535.security.MyFilterSecurityInterceptor
+import com.github.dean535.security.TokenAuthenticationFilter
+import com.github.dean535.security.custom.CustomAuthenticationFilter
+import com.github.dean535.security.custom.CustomUserDetailsAuthenticationProvider
+import com.github.dean535.security.custom.CustomUserDetailsService
+import com.github.dean535.security.handlers.AuthenticationFailureHandler
+import com.github.dean535.security.handlers.AuthenticationSuccessHandler
+import com.github.dean535.security.handlers.MyAccessDeniedHandler
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

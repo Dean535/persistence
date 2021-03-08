@@ -1,4 +1,4 @@
-package com.github.b1412.security
+package com.github.dean535.security
 
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm.HS512

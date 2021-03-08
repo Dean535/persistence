@@ -1,4 +1,4 @@
-package com.github.b1412.api.entity
+package com.github.dean535.api.entity
 
 import com.github.dean535.persistence.entity.User
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType

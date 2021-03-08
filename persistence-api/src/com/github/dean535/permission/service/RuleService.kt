@@ -1,6 +1,6 @@
 package com.github.dean535.persistence.service
 
-import com.github.b1412.api.service.BaseService
+import com.github.dean535.api.service.BaseService
 import com.github.dean535.persistence.dao.RuleDao
 import com.github.dean535.persistence.entity.Rule
 import org.springframework.beans.factory.annotation.Autowired

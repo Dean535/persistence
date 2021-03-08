@@ -1,4 +1,4 @@
-package com.github.b1412.security
+package com.github.dean535.security
 
 data class UserTokenState(
     var userId: String? = null,

@@ -38,8 +38,7 @@ repositories {
 }
 
 dependencies {
-    api(project(":permission-generated"))
-    api("com.github.b1412:api-common:e307fc7309")
+    api(project(":persistence-common"))
 
     annotationProcessor ("org.springframework.boot:spring-boot-configuration-processor")
 

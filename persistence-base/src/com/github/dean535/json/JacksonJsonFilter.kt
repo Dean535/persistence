@@ -1,4 +1,4 @@
-package com.github.b1412.json
+package com.github.dean535.json
 
 import com.fasterxml.jackson.annotation.JsonFilter
 import com.fasterxml.jackson.core.JsonGenerator

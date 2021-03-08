@@ -1,6 +1,6 @@
 package com.github.dean535.persistence.entity
 
-import com.github.b1412.api.entity.BaseEntity
+import com.github.dean535.api.entity.BaseEntity
 import org.hibernate.annotations.Type
 import java.io.Serializable
 import javax.persistence.*

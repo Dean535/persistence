@@ -1,4 +1,4 @@
-package com.github.b1412.json
+package com.github.dean535.json
 
 import arrow.core.getOrElse
 import arrow.core.toOption
@@ -10,10 +10,10 @@ import com.fasterxml.jackson.databind.SerializationFeature
 import com.fasterxml.jackson.datatype.hibernate5.Hibernate5Module
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
-import com.github.b1412.api.entity.BaseEntity
+import com.github.dean535.api.entity.BaseEntity
 import com.github.dean535.persistence.util.ClassUtil
 import com.github.dean535.persistence.util.ClassUtil.allDeclaredFields
-import com.github.b1412.util.findClasses
+import com.github.dean535.util.findClasses
 import org.springframework.beans.factory.config.BeanPostProcessor
 import org.springframework.core.MethodParameter
 import org.springframework.http.MediaType

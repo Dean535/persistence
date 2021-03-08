@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 
 @SpringBootApplication(
     scanBasePackages = [
-        "com.github.b1412.*"
+        "com.github.dean535.*"
     ],
     exclude = [
         SecurityAutoConfiguration::class,

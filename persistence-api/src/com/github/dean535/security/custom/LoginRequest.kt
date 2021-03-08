@@ -1,4 +1,4 @@
-package com.github.b1412.security.custom
+package com.github.dean535.security.custom
 
 data class LoginRequest(
     var username: String,

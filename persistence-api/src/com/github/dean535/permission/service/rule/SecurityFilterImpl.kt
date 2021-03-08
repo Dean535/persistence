@@ -3,7 +3,7 @@ package com.github.dean535.persistence.service.rule
 import arrow.core.Either
 import arrow.core.extensions.list.foldable.firstOrNone
 import arrow.core.getOrElse
-import com.github.b1412.api.service.SecurityFilter
+import com.github.dean535.api.service.SecurityFilter
 import com.github.dean535.persistence.entity.User
 import com.github.dean535.persistence.service.rule.access.AccessRule
 import org.slf4j.LoggerFactory

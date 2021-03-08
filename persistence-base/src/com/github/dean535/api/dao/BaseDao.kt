@@ -1,4 +1,4 @@
-package com.github.b1412.api.dao
+package com.github.dean535.api.dao
 
 
 import arrow.core.Either

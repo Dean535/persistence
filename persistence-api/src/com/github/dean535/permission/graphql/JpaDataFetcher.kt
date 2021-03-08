@@ -3,7 +3,7 @@ package com.github.dean535.persistence.graphql
 
 import arrow.core.extensions.list.foldable.firstOption
 import arrow.core.getOrElse
-import com.github.b1412.jpa.JpaUtil
+import com.github.dean535.jpa.JpaUtil
 import com.github.dean535.persistence.jpa.QueryBuilder
 import graphql.language.*
 import graphql.schema.*

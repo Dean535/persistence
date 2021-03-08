@@ -1,14 +1,14 @@
-package com.github.b1412.security.handlers
+package com.github.dean535.security.handlers
 
 
 import com.fasterxml.jackson.databind.ObjectMapper
-import com.github.b1412.cache.CacheClient
+import com.github.dean535.cache.CacheClient
 import com.github.dean535.persistence.entity.User
 import com.github.dean535.persistence.service.UserService
-import com.github.b1412.security.PermissionProperties
-import com.github.b1412.security.TokenHelper
+import com.github.dean535.security.PermissionProperties
+import com.github.dean535.security.TokenHelper
 
-import com.github.b1412.security.UserTokenState
+import com.github.dean535.security.UserTokenState
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.beans.factory.annotation.Value

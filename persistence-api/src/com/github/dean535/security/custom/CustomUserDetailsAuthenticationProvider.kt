@@ -1,4 +1,4 @@
-package com.github.b1412.security.custom
+package com.github.dean535.security.custom
 
 import org.springframework.security.authentication.BadCredentialsException
 import org.springframework.security.authentication.InternalAuthenticationServiceException

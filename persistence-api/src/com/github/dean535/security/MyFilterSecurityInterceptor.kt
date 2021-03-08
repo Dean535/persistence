@@ -1,4 +1,4 @@
-package com.github.b1412.security
+package com.github.dean535.security
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.security.access.SecurityMetadataSource

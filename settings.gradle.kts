@@ -13,6 +13,7 @@ pluginManagement {
 }
 include(
         "persistence-api",
-        "persistence-base"
+        "persistence-base",
+        "persistence-common"
 )
 

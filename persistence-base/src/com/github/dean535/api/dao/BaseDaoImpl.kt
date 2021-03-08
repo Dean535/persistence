@@ -1,9 +1,9 @@
-package com.github.b1412.api.dao
+package com.github.dean535.api.dao
 
 import arrow.core.Either
 import arrow.core.firstOrNone
 import arrow.core.getOrElse
-import com.github.b1412.jpa.JpaUtil
+import com.github.dean535.jpa.JpaUtil
 import org.hibernate.loader.MultipleBagFetchException
 import org.joor.Reflect
 import org.springframework.data.domain.Page

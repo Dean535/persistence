@@ -1,7 +1,7 @@
-package com.github.b1412.extenstions
+package com.github.dean535.extenstions
 
 import arrow.syntax.collections.tail
-import com.github.b1412.api.entity.BaseEntity
+import com.github.dean535.api.entity.BaseEntity
 import org.joor.Reflect
 import kotlin.reflect.full.memberFunctions
 

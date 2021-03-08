@@ -1,4 +1,4 @@
-package com.github.b1412.jpa
+package com.github.dean535.jpa
 
 import org.springframework.beans.BeanUtils
 import org.springframework.beans.BeanWrapperImpl

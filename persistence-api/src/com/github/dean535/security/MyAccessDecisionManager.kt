@@ -1,6 +1,6 @@
-package com.github.b1412.security
+package com.github.dean535.security
 
-import com.github.b1412.extenstions.println
+import com.github.dean535.extenstions.println
 import org.springframework.security.access.AccessDecisionManager
 import org.springframework.security.access.AccessDeniedException
 import org.springframework.security.access.ConfigAttribute

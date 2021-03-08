@@ -1,6 +1,6 @@
 package com.github.dean535.persistence.config
 
-import com.github.b1412.api.dao.BaseDaoImpl
+import com.github.dean535.api.dao.BaseDaoImpl
 import org.springframework.context.annotation.Configuration
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories
@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement
 )
 @EnableJpaRepositories(
     basePackages = [
-        "com.github.b1412.*.dao"
+        "com.github.dean535.*.dao"
     ], repositoryBaseClass = BaseDaoImpl::class
 )
 @EnableTransactionManagement

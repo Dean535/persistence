@@ -1,8 +1,8 @@
-package com.github.b1412.api
+package com.github.dean535.api
 
 import arrow.core.extensions.list.foldable.firstOrNone
-import com.github.b1412.api.service.BaseService
-import com.github.b1412.util.findClasses
+import com.github.dean535.api.service.BaseService
+import com.github.dean535.util.findClasses
 import com.google.common.base.CaseFormat
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.ApplicationContext
