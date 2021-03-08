@@ -1,8 +1,8 @@
-package com.github.b1412.permission.service
+package com.github.dean535.persistence.service
 
 import com.github.b1412.api.service.BaseService
-import com.github.b1412.permission.dao.RoleDao
-import com.github.b1412.permission.entity.Role
+import com.github.dean535.persistence.dao.RoleDao
+import com.github.dean535.persistence.entity.Role
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 

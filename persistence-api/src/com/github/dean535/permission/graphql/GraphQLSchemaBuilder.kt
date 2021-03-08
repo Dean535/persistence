@@ -1,8 +1,8 @@
-package com.github.b1412.permission.graphql
+package com.github.dean535.persistence.graphql
 
 
-import com.github.b1412.permission.graphql.annotation.GraphQLIgnore
-import com.github.b1412.permission.graphql.annotation.SchemaDocumentation
+import com.github.dean535.persistence.graphql.annotation.GraphQLIgnore
+import com.github.dean535.persistence.graphql.annotation.SchemaDocumentation
 import graphql.Scalars
 import graphql.schema.*
 import org.springframework.stereotype.Component

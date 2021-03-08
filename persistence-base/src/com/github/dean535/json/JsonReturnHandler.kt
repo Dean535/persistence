@@ -11,8 +11,8 @@ import com.fasterxml.jackson.datatype.hibernate5.Hibernate5Module
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule
 import com.github.b1412.api.entity.BaseEntity
-import com.github.b1412.permission.util.ClassUtil
-import com.github.b1412.permission.util.ClassUtil.allDeclaredFields
+import com.github.dean535.persistence.util.ClassUtil
+import com.github.dean535.persistence.util.ClassUtil.allDeclaredFields
 import com.github.b1412.util.findClasses
 import org.springframework.beans.factory.config.BeanPostProcessor
 import org.springframework.core.MethodParameter

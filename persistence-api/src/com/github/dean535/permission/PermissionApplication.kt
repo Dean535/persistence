@@ -1,4 +1,4 @@
-package com.github.b1412.permission
+package com.github.dean535.persistence
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.autoconfigure.availability.ApplicationAvailabilityAutoConfiguration

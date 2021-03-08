@@ -1,4 +1,4 @@
-package com.github.b1412.permission.jpa
+package com.github.dean535.persistence.jpa
 
 import arrow.core.extensions.list.foldable.firstOption
 import graphql.language.*

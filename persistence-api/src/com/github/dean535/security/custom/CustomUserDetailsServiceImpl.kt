@@ -2,7 +2,7 @@ package com.github.b1412.security.custom
 
 
 import com.github.b1412.cache.CacheClient
-import com.github.b1412.permission.service.UserService
+import com.github.dean535.persistence.service.UserService
 import org.apache.commons.lang3.StringUtils
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired

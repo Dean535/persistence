@@ -1,4 +1,4 @@
-package com.github.b1412.permission.config
+package com.github.dean535.persistence.config
 
 import com.github.b1412.api.dao.BaseDaoImpl
 import org.springframework.context.annotation.Configuration

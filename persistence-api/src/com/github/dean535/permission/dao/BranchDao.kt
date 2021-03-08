@@ -1,7 +1,7 @@
-package com.github.b1412.permission.dao
+package com.github.dean535.persistence.dao
 
 import com.github.b1412.api.dao.BaseDao
-import com.github.b1412.permission.entity.Branch
+import com.github.dean535.persistence.entity.Branch
 import org.springframework.stereotype.Repository
 
 @Repository

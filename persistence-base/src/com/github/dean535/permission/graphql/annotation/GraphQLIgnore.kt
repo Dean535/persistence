@@ -1,4 +1,4 @@
-package com.github.b1412.permission.graphql.annotation
+package com.github.dean535.persistence.graphql.annotation
 
 import java.lang.annotation.Retention
 import java.lang.annotation.RetentionPolicy.RUNTIME

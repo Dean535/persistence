@@ -1,4 +1,4 @@
-package com.github.b1412.permission.util
+package com.github.dean535.persistence.util
 
 import org.springframework.core.io.support.PathMatchingResourcePatternResolver
 import org.springframework.core.type.classreading.CachingMetadataReaderFactory

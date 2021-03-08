@@ -1,4 +1,4 @@
-package com.github.b1412.permission.config
+package com.github.dean535.persistence.config
 
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

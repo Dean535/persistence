@@ -5,7 +5,7 @@ import com.github.b1412.api.entity.BaseEntity
 import com.github.b1412.api.service.BaseService
 import com.github.b1412.extenstions.copyFrom
 import com.github.b1412.extenstions.responseEntityOk
-import com.github.b1412.permission.entity.User
+import com.github.dean535.persistence.entity.User
 import com.google.common.base.CaseFormat
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.data.domain.Pageable

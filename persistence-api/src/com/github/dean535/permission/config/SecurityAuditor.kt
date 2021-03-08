@@ -1,6 +1,6 @@
-package com.github.b1412.permission.config
+package com.github.dean535.persistence.config
 
-import com.github.b1412.permission.entity.User
+import com.github.dean535.persistence.entity.User
 import org.springframework.data.domain.AuditorAware
 import org.springframework.security.core.context.SecurityContextHolder
 import org.springframework.stereotype.Component

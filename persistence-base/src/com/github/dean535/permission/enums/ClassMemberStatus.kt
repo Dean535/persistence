@@ -1,4 +1,4 @@
-package com.github.b1412.permission.enums
+package com.github.dean535.persistence.enums
 
 enum class ClassMemberStatus {
     INCLASS,

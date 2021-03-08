@@ -3,7 +3,7 @@ package com.github.b1412.security
 import arrow.core.extensions.list.foldable.firstOption
 import arrow.core.getOrElse
 import com.github.b1412.cache.CacheClient
-import com.github.b1412.permission.dao.PermissionDao
+import com.github.dean535.persistence.dao.PermissionDao
 import org.springframework.security.access.ConfigAttribute
 import org.springframework.security.access.SecurityConfig
 import org.springframework.security.web.FilterInvocation

@@ -1,6 +1,6 @@
-package com.github.b1412.permission.controller
+package com.github.dean535.persistence.controller
 
-import com.github.b1412.permission.graphql.GraphQLExecutor
+import com.github.dean535.persistence.graphql.GraphQLExecutor
 import graphql.ExecutionResult
 import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody

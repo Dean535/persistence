@@ -1,4 +1,4 @@
-package com.github.b1412.permission.util
+package com.github.dean535.persistence.util
 
 import java.lang.reflect.Field
 import javax.persistence.ManyToMany

@@ -1,6 +1,6 @@
 package com.github.b1412.api.entity
 
-import com.github.b1412.permission.entity.User
+import com.github.dean535.persistence.entity.User
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType
 import com.vladmihalcea.hibernate.type.json.JsonStringType
 import org.hibernate.annotations.TypeDef

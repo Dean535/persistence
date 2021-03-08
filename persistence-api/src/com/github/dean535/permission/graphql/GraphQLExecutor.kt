@@ -1,4 +1,4 @@
-package com.github.b1412.permission.graphql
+package com.github.dean535.persistence.graphql
 
 import graphql.ExecutionInput
 import graphql.ExecutionResult

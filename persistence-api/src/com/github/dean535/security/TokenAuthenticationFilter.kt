@@ -4,7 +4,7 @@ import arrow.core.None
 import arrow.core.Some
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.github.b1412.error.ErrorDTO
-import com.github.b1412.permission.service.UserService
+import com.github.dean535.persistence.service.UserService
 import com.github.b1412.security.custom.CustomUserDetailsService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.context.properties.EnableConfigurationProperties

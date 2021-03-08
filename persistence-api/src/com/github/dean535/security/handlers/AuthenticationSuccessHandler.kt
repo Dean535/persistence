@@ -3,8 +3,8 @@ package com.github.b1412.security.handlers
 
 import com.fasterxml.jackson.databind.ObjectMapper
 import com.github.b1412.cache.CacheClient
-import com.github.b1412.permission.entity.User
-import com.github.b1412.permission.service.UserService
+import com.github.dean535.persistence.entity.User
+import com.github.dean535.persistence.service.UserService
 import com.github.b1412.security.PermissionProperties
 import com.github.b1412.security.TokenHelper
 

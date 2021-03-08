@@ -1,4 +1,4 @@
-package com.github.b1412.permission.entity
+package com.github.dean535.persistence.entity
 
 import com.github.b1412.api.entity.BaseEntity
 import com.github.b1412.generator.metadata.ExcelFeature

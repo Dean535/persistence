@@ -1,6 +1,6 @@
-package com.github.b1412.permission.service.rule.access
+package com.github.dean535.persistence.service.rule.access
 
-import com.github.b1412.permission.entity.Permission
+import com.github.dean535.persistence.entity.Permission
 
 
 interface AccessRule {

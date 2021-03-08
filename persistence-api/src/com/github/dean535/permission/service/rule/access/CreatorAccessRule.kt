@@ -1,7 +1,7 @@
-package com.github.b1412.permission.service.rule.access
+package com.github.dean535.persistence.service.rule.access
 
-import com.github.b1412.permission.entity.Permission
-import com.github.b1412.permission.entity.User
+import com.github.dean535.persistence.entity.Permission
+import com.github.dean535.persistence.entity.User
 import org.springframework.security.core.context.SecurityContextHolder
 import org.springframework.stereotype.Component
 

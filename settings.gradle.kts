@@ -12,10 +12,7 @@ pluginManagement {
     }
 }
 include(
-        "permission-main",
-        "permission-api",
-        "permission-base",
-        "permission-generated",
-        "permission-generator"
+        "persistence-api",
+        "persistence-base"
 )
 

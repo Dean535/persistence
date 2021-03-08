@@ -1,6 +1,6 @@
-package com.github.b1412.permission.controller
+package com.github.dean535.persistence.controller
 
-import com.github.b1412.permission.controller.base.BaseRoleController
+import com.github.dean535.persistence.controller.base.BaseRoleController
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
